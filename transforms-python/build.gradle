@@ -1,0 +1,35 @@
+// DO NOT MODIFY THIS FILE
+buildscript {
+    repositories {
+        maven {
+            credentials {
+                username ''
+                password transformsBearerToken
+            }
+            authentication {
+                basic(BasicAuthentication)
+            }
+            url project.transformsMavenProxyRepoUri
+        }
+    }
+
+    dependencies {
+        classpath "com.palantir.transforms.python:lang-python-gradle-plugin:${transformsLangPythonPluginVersion}"
+    }
+}
+
+
+apply plugin: 'com.palantir.transforms.lang.python'
+apply plugin: 'com.palantir.transforms.lang.python-defaults'
+
+
+dependencies {
+    condaJars 'com.datarobot:datarobot-prediction:2.1.6'
+    condaJars 'com.datarobot:scoring-code-spark-api_2.4.3:0.0.19'
+}
+
+// Apply the testing plugin
+// apply plugin: 'com.palantir.transforms.lang.pytest-defaults'
+
+// Apply the anti-pattern linter
+// apply plugin: 'com.palantir.transforms.lang.antipattern-linter'

@@ -1,0 +1,22 @@
+// DO NOT MODIFY THIS FILE
+buildscript {
+    repositories {
+        maven {
+            credentials {
+                username ''
+                password transformsBearerToken
+            }
+            authentication {
+                basic(BasicAuthentication)
+            }
+            url project.transformsMavenProxyRepoUri
+        }
+    }
+
+    dependencies {
+        classpath "com.palantir.transforms.java:lang-java-gradle-plugin:${transformsJavaVersion}"
+    }
+}
+
+apply plugin: 'com.palantir.transforms.lang.java'
+apply plugin: 'com.palantir.transforms.lang.java-defaults'

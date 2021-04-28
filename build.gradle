@@ -1,0 +1,23 @@
+// DO NOT MODIFY THIS FILE
+buildscript {
+    repositories {
+        maven {
+            credentials {
+                username ''
+                password project.transformsBearerToken
+            }
+            authentication {
+                basic(BasicAuthentication)
+            }
+            url project.transformsMavenProxyRepoUri
+        }
+    }
+
+    dependencies {
+        classpath "com.palantir.transforms:transforms-gradle-plugin:${transformsVersion}"
+        //condaJars 'com.datarobot:scoring-code-spark-api_2.4.3:0.0.19'
+    }
+}
+
+apply plugin: 'com.palantir.transforms-defaults'
+

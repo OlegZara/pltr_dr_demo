@@ -1,0 +1,58 @@
+---
+mappings:
+- alias: "/DataRobot/Foundry DataRobot Demo/Demand Forcasting/myproject/datasets/predictions-series-soho"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.9d6bac71-164c-4149-a257-2f6a735dfa0d"
+- alias: "ri.foundry.main.dataset.0c96802f-03dd-4ab6-a824-5fd1b8d0d32f"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.0c96802f-03dd-4ab6-a824-5fd1b8d0d32f"
+- alias: "ri.foundry.main.dataset.19ab7962-d363-4594-a910-4d2b551381c3"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.19ab7962-d363-4594-a910-4d2b551381c3"
+- alias: "ri.foundry.main.dataset.1a4fe048-f4ed-4757-8383-89a6fba427e6"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.1a4fe048-f4ed-4757-8383-89a6fba427e6"
+- alias: "ri.foundry.main.dataset.3af76283-ed7e-403c-9bd4-df7e6d0b14a2"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.3af76283-ed7e-403c-9bd4-df7e6d0b14a2"
+- alias: "ri.foundry.main.dataset.4f6c8edd-55f6-4020-a48b-a9eb1b74d7d7"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.4f6c8edd-55f6-4020-a48b-a9eb1b74d7d7"
+- alias: "ri.foundry.main.dataset.6d2b8ec2-33da-4d4b-8971-5971f3ed1089"
+  modes:
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.6d2b8ec2-33da-4d4b-8971-5971f3ed1089"
+- alias: "ri.foundry.main.dataset.7d468872-685f-4d7c-b632-e924662cb91d"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.7d468872-685f-4d7c-b632-e924662cb91d"
+- alias: "ri.foundry.main.dataset.ac0d62bf-6109-4ff1-8dfc-40c871aec121"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.ac0d62bf-6109-4ff1-8dfc-40c871aec121"
+- alias: "ri.foundry.main.dataset.c3547fd9-548d-40af-a2c7-1110ae8b7aa0"
+  modes:
+  - "BUILD"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.c3547fd9-548d-40af-a2c7-1110ae8b7aa0"
+- alias: "ri.foundry.main.dataset.f424168e-8fc8-4048-a35c-c8fb9f8be430"
+  modes:
+  - "BUILD"
+  - "READ"
+  path: "/deprecated-field"
+  rid: "ri.foundry.main.dataset.f424168e-8fc8-4048-a35c-c8fb9f8be430"
