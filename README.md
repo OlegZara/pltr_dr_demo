@@ -1,8 +1,6 @@
 # pltr_dr_demo
 
-This is a clone of the repository created in Foundry
-
-Only files in [this folder](https://github.com/OlegZara/pltr_dr_demo/tree/main/transforms-python/src/myproject/datasets) are created by the user
+This is a clone of the repository created in Foundry, only files in [this folder](https://github.com/OlegZara/pltr_dr_demo/tree/main/transforms-python/src/myproject/datasets) are created by the user
 
 
 
