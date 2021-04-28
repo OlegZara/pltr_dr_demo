@@ -1,4 +1,3 @@
-# cluster_training_pltr
 # pltr_dr_demo
 
 This is a clone of the repository created in Foundry
