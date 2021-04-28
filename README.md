@@ -1,4 +1,4 @@
-# Palantir <> DR integration Repository
+# Palantir / DataRobot integration Repository
 
 This is a clone of the repository created in Foundry. The repository runs the DataRobot python API to train models from Foundry and scoring code/POST request for generating predictions back to a Foundry table. Only files in [this folder](https://github.com/OlegZara/pltr_dr_demo/tree/main/transforms-python/src/myproject/datasets) are created by the user
 
