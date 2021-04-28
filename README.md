@@ -2,7 +2,11 @@
 
 This is a clone of the repository created in Foundry
 
-Key files to look out for:
+Only files in [this folder](https://github.com/OlegZara/pltr_dr_demo/tree/main/transforms-python/src/myproject/datasets) are created by the user
+
+
+
+**Key files to look out for**:
 
 meta.yaml: (dependencies)
 https://github.com/OlegZara/pltr_dr_demo/blob/main/transforms-python/conda_recipe/meta.yaml
