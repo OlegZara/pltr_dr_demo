@@ -28,7 +28,7 @@ def train_model(modelling_data, credentials):
         project_name='SAMPLE')
 
     proj.set_target(
-        target='targat_column',
+        target='target_column',
         mode=dr.AUTOPILOT_MODE.QUICK,
         max_wait=3600,
         worker_count=-1
